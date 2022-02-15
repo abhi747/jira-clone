@@ -1,0 +1,29 @@
+.task-row {
+  border: 1px solid #000;
+  border-radius: 0.2rem;
+  width: 30vw;
+  min-height: 50px;
+}
+
+.task {
+  position: relative;
+  margin: 1rem;
+  padding: 4px;
+  border: 1px solid #000;
+  border-radius: 2px;
+  word-break: break-word;
+}
+
+.task:hover {
+  cursor: pointer;
+}
+
+.task-row-title {
+  padding: 0.5rem;
+  margin-top: 0;
+  background-color: lightgray;
+}
+
+.title {
+  font-weight: bold;
+}
